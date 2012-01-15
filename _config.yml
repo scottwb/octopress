@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://blog.scottwb.com/
+title: Scott W. Bradley
+subtitle: In which scottwb thinks out loud
+author: Scott W. Bradley
 simple_search: http://google.com/search
-description:
+description: My thoughts on techonology, software development, and open source.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
