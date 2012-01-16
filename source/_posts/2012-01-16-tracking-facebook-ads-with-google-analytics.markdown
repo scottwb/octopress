@@ -25,7 +25,7 @@ These will be the values you can filter by in Google Analytics. For example, you
 * **Campaign Content**: _blank - or use for A/B testing two ads at same time_
 * **Campaign Name**: spring_break_south_beach
 
-### 3) Place your add with Facebook
+### 3) Place your ad with Facebook
 
 Choosing how to position your ad is outside the scope of this post. Take the URL you generated with the Google Analytics URL Builder, and make an ad on Facebook that points to it. You can start with the [Facebook Ads](https://www.facebook.com/advertising/) page.
 
