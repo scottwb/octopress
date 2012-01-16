@@ -3,7 +3,9 @@ layout: post
 title: "Have Some Fun With Your Tests"
 date: 2012-01-13 14:36
 comments: true
-categories: rspec, development
+categories:
+- rspec
+- development
 ---
 
 I just came across this test case in some old code I had forgotten about:
