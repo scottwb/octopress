@@ -3,7 +3,10 @@ layout: post
 title: "Tracking Facebook Ads With Google Analytics"
 date: 2012-01-16 13:37
 comments: true
-categories: analytics
+categories:
+- analytics
+- google
+- facebook
 ---
 By default, Google Analytics does not do a very good job at categorizing traffic you receive from placing an ad on an external ad network such as Facebook Ads. In the case of Facebook in particular, traffic referred from your ad will show up as "direct" or generically as "facebook" because of they way the redirect the user to your ad through their own analytics back-end.
 
