@@ -2,11 +2,18 @@
 // Add styles here to make changes without digging in too much
 
 aside.sidebar
-  section.aboutMe
-    h1
-      margin-bottom: 8px
+  section
+    &.aboutMe, &.shelfari
+      h1
+        margin-bottom: 8px
 
-    img.left
-      margin:
-        right: 8px
-        bottom: 0px
+      img.left
+        margin:
+          right: 8px
+          bottom: 0px
+
+#content
+  article
+    ol, ul
+      padding-left: 3em
+
