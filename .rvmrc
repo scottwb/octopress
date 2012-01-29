@@ -5,7 +5,7 @@
 #
 
 ruby_string="ruby-1.9.2-p180"
-gemset_name="octopress"
+gemset_name="octopress-scottwb.com"
 
 if rvm list strings | grep -q "${ruby_string}" ; then
 
