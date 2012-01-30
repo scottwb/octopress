@@ -18,7 +18,7 @@ it "validates that the address is geocodable" do
   @user.zipcode = "1138"
 
   expect{@user.save!}.to raise_exception ActiveRecord::RecordInvalid
-  @wall.errors[:address].should include "could not be found on the map"
+  @user.errors[:address].should include "could not be found on the map"
 end
 ```
 
