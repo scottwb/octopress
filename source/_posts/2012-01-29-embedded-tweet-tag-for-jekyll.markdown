@@ -32,4 +32,4 @@ When that pops up the dialog, choose the "Shortcode" tab, select your desired al
 
 For full documentation, see the project [README](https://github.com/scottwb/jekyll-tweet-tag/blob/master/README.md).
 
-That's all there is to it. If you're using Octopress with your own fork of the repository, you might be interested in my pull request that imports the `jekyll-tweet-tag` plugin.
+That's all there is to it. If you're using Octopress with your own fork of the repository, you might be interested in my [pull request](https://github.com/imathis/octopress/pull/399) that imports the `jekyll-tweet-tag` plugin.

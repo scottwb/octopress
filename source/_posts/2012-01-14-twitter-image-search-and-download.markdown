@@ -14,6 +14,8 @@ So I thought it would be funny to scour Twitter for all the pictures of it that 
 
 I sat down to whip out a quick-and-dirty script to do this for me. By the time it was ready, I had lost the smart-ass urge to post them to Facebook, but what I ended up with turns out to be a handy little tool.
 
+<!-- MORE -->
+
 You can grab it from my github page at [https://github.com/scottwb/twitter-image-search](https://github.com/scottwb/twitter-image-search)
 
 It's pretty easy to use. You give it a search term and it creates a directory and downloads a bunch of matching images.

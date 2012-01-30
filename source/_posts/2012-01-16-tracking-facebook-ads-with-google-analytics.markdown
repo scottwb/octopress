@@ -14,6 +14,8 @@ The intended way to track through this redirection is using "UTM codes": paramet
 
 Below is a quick primer on getting setup so that your Facebook Ads can be properly tracked with Google Analytics.
 
+<!-- MORE -->
+
 ### 1) Add these lines to your existing Google Analytics javascript code:
 {% gist 1623245 %}
 

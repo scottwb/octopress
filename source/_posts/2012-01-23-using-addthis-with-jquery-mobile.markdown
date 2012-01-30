@@ -20,6 +20,8 @@ $.getScript("http://s7.addthis.com/js/250/addthis_widget.js#domready=1");
 
 Now...when you're using jQuery Mobile, you are very likely loading each page via AJAX instead of a full page request. This is the default behavior. Say you have a series of photos, and each click of a NEXT or PREV button slides in the next/prev photo in a series, as a full page dislay with AddThis buttons. You will need to reload AddThis every time a new page comes in to view.
 
+<!-- MORE -->
+
 You also have to be careful not to reload AddThis for every page being rendered. If you are using jQuery Mobile's page prefetching, you could get quite a few reloads per page this way. You might also miss a necessary reload of AddThis when the user clicks the BACK button, or transitions to an already-cached page.
 
 Fortunately jQuery Mobile gives an easy event to bind to that gives us just the right hook: `pageshow`. This event is triggered when the transition animation has completed for a transition from one page to another. Just the right time to reload AddThis. Put this all together and you get:
