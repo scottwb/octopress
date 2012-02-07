@@ -66,3 +66,5 @@ You will want to edit this to be equal to your version of Rails. This makes it s
 In my opinion, some simple refactoring of `Mime::Types.parse` would eliminate the maintenance hazard that causes these issues. Currently there are two blocks of code in this method: one that handles a single content-type, and one that handles a list of multiple content-types. This should really just treat the single case as a list of one content-type. This way, fixes made to one don't have to be applied to the other -- which is likely the main cause of these problems. Both these issues are non-issues in the multiple content-type case, but are not addressed in the single content-type case.
 
 I'll probably work up a pull request to address this, so hopefully these will be fixed in the mainline Rails someday.
+
+***UPDATED Feb 7, 2012:** I submitted a [pull request](https://github.com/rails/rails/pull/4918) yesterday to fix this correctly in Edge Rails, and it has now been merged into `master`.*
