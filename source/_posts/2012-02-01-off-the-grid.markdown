@@ -23,3 +23,5 @@ Feel free to contact me by any of the means you normally use. Just don't expect 
 If you need to contact me for something that is time-sensitive, but not necessarily important, instant messenger or text message is a great way to get ahold of me. I may not respond promptly on IM, because I will have growl notifications turned off.
 
 If this feels right, maybe I'll extend the experiment for a few days...
+
+***UPDATED 2/13/2012:*** Read my follow up two weeks later, [Off The Grid - Part Two](/blog/2012/02/13/off-the-grid-part-two/)
