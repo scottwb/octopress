@@ -34,7 +34,7 @@ function reloadAddThis() {
     $.getScript("http://s7.addthis.com/js/250/addthis_widget.js#domready=1");
 }
 
-$(document).bind('pageshow' function() {
+$(document).bind('pageshow', function() {
     reloadAddThis();
 });
 ```
