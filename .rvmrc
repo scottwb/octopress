@@ -4,6 +4,7 @@
 # Based on the example from: http://rvm.beginrescueend.com/workflow/rvmrc/
 #
 
+title octopress
 ruby_string="ruby-1.9.2-p180"
 gemset_name="octopress-scottwb.com"
 
