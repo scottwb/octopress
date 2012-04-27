@@ -6,7 +6,7 @@ comments: true
 categories: career
 ---
 
-I am pleased to announce that I have found my new home. As of this week, I'll be starting my new position as the VP of Engineering at [Validas](http://www.validas.com/).
+I am pleased to announce that I have found my new home. As of next week, I'll be starting my new position as the VP of Engineering at [Validas](http://www.validas.com/).
 
 [{% img left /images/validas-logo.png 'Validas' 'Validas' %}](http://www.validas.com/)
 
