@@ -8,6 +8,7 @@ categories:
 - mobile
 - javascript
 - rails
+- ios
 ---
 
 Starting with verison 1.1.0RC1, jQuery Mobile changes the `href` of any link to be `#` when it is clicked, but _only on iOS Mobile Safari_. If you try to make a click handler that reads the `href` attribute, you will be surprised to find that it does not get the href you intended. For example:
