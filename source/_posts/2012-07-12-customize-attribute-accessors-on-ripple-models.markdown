@@ -39,7 +39,7 @@ Instead, they implement the `[]` and `[]=` methods. Translating the code above t
 class User
   include Ripple::Document
 
-  property stuff, Hash
+  property :stuff, Hash
 
   def stuff
     JSON.parse(self[:stuff])
@@ -59,7 +59,7 @@ Using this tactic, you can easily add some memoization so that your getter doesn
 class User
   include Ripple::Document
 
-  property stuff, Hash
+  property :stuff, Hash
 
   def stuff
     @cached_stuff ||= JSON.parse(self[:stuff])
