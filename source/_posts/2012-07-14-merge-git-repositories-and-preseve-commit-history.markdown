@@ -104,7 +104,7 @@ $ cd ..
 $ rm -rf bart
 
 # Push simpsons back upstream to github
-$ cd homer
+$ cd simpsons
 $ git push
 ```
 
