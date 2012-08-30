@@ -12,8 +12,48 @@ aside.sidebar
           right: 8px
           bottom: 0px
 
+    &.nowHiring
+      position: relative
+      margin-top: 1.5em
+      border: solid red 1px
+      min-height: 150px
+      max-width: 245px
+      padding: 8px
+      background-color: #ffeeee
+
+      h1
+        margin:
+          top: 0px
+          bottom: 8px
+        border-bottom: solid 1px red
+        a
+          +hover-link
+
+      p
+        margin-bottom: 0px
+
+      img.banner
+        position: absolute
+        top: 0px
+        right: 0px
+        border: 0px
+        +border-radius(0px)
+        +box-shadow(none)
+        width: 150px
+        height: 150px
+      @media only screen and (max-width: 992px)
+        max-width: 192px
+        img.banner
+          width: 100px
+          height: 100px
+  @media only screen and (max-width: 748px)
+    section.aboutMe
+      +clearfix
+    section.nowHiring
+      clear: both
+      margin-top: 1.5em
+
 #content
   article
     ol, ul
       padding-left: 3em
-
