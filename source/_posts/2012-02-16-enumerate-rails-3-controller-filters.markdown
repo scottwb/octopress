@@ -13,7 +13,7 @@ One reason for wanting to do this is simply for debugging. Sometimes you just ne
 
 In Rails 3, I find it convenient to add a few utility methods to `ApplicationController` that list out the symbol names of all the filters on any given controller:
 
-``` ruby application_controller.rb https://gist.github.com/1851143 View Gist
+``` ruby application_controller.rb https://gist.github.com/1851142 View Gist
 # Add these methods to your ApplicationController. Then, any controller
 # that inherits from it will have these methods and can programmatically
 # determine what filters it has set.
