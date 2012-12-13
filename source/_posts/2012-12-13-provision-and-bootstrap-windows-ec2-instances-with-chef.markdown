@@ -152,7 +152,7 @@ begin
   s = TCPSocket.new ip_addr, 5985
 rescue Errno:ETIMEOUT => e
   puts "Still waiting..."
-  retru
+  retry
 end
 s.close
 
