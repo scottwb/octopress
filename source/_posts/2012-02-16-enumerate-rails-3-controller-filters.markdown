@@ -13,7 +13,32 @@ One reason for wanting to do this is simply for debugging. Sometimes you just ne
 
 In Rails 3, I find it convenient to add a few utility methods to `ApplicationController` that list out the symbol names of all the filters on any given controller:
 
-{% gist 1851142 %}
+``` ruby application_controller.rb https://gist.github.com/1851143 View Gist
+# Add these methods to your ApplicationController. Then, any controller
+# that inherits from it will have these methods and can programmatically
+# determine what filters it has set.
+class ApplicationController < ActionController::Base
+
+  def self.filters(kind = nil)
+    all_filters = _process_action_callbacks
+    all_filters = all_filters.select{|f| f.kind == kind} if kind
+    all_filters.map(&:filter)
+  end
+
+  def self.before_filters
+    filters(:before)
+  end
+
+  def self.after_filters
+    filters(:after)
+  end
+
+  def self.around_filters
+    filters(:around)
+  end
+
+end
+```
 
 With that in hand, you can do something like this:
 

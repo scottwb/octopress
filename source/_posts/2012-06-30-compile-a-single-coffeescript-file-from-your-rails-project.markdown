@@ -16,7 +16,14 @@ It doesn't seem that this type of setup includes direct access to the `coffee` c
 
 To do this, I've made a simple Rake task. Just drop this into `lib/tasks/coffee.rake` in your Rails project:
 
-{% gist 3026787 %}
+``` ruby coffee.rake https://gist.github.com/3026787 View Gist
+namespace :coffee do
+  task :compile, :filename do |t, args|
+    filename = args.filename
+    puts CoffeeScript.compile(File.open(filename))
+  end
+end
+```
 
 Then, you can compile a single file from like this:
 

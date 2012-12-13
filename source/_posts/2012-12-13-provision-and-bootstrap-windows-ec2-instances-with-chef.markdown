@@ -64,7 +64,7 @@ Here is a stripped down version of this script demonstrating all these tricks. A
 
 Big thanks to my colleauge [Jeremy Groh](https://twitter.com/jgroh9) who paired through this with me and did the bulk of the heavy lifting on the Windows side, especially with the WinRM and password-reset parts.
 
-``` ruby bootstrap-windows.rb https://gist.github.com/raw/4276748/e9fd8b823cdca19809a67e96fb0c3c36065aebb8/bw.rb Raw Source
+``` ruby bootstrap-windows.rb https://gist.github.com/4276748 View Gist
 #!/usr/bin/env/ruby
 
 require 'socket'

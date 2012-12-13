@@ -38,7 +38,24 @@ This is because Rails UJS does it's magic by creating a new `<form>` to submit w
 
 We need Rails UJS to copy the `data-ajax` attribute from the link to the form it creates. This is actually a pretty simple fix (hack) to the `handleMethod` funciton in `rails.js`. To just one-off this particular attribute, you can do somethign like this:
 
-{% gist 1857315 %}
+``` diff rails.js.diff https://gist.github.com/1857315 View Gist
+diff --git a/src/rails.js b/src/rails.js
+index 06b4e0b..49ff0b2 100644
+--- a/src/rails.js
++++ b/src/rails.js
+@@ -174,6 +174,11 @@
+ 
+       if (target) { form.attr('target', target); }
+ 
++      var ajax = link.data('ajax');
++      if (ajax !== undefined) {
++        form.attr('data-ajax', ajax);
++      }
++
+       form.hide().append(metadata_input).appendTo('body');
+       form.submit();
+     },
+```
 
 In fact, I've [committed this patch](https://github.com/scottwb/jquery-ujs/commit/4d6bc50c4545ac2f492c1e584bef1e154cd61522) in a branch on my fork of rails/jquery-ujs.
 
