@@ -74,3 +74,6 @@ $.rails.href = function(element) {
 ```
 
 Now your Rails `link_to` calls with custom `:method` options such as `:delete` will work just fine with jQuery Mobile 1.1.0 on iOS Mobile Safari, and you don't have to lose that clever bit that keeps the address bar hidden.
+
+----
+***UPDATED Jan. 3, 2013:** I have confirmed that this problem has been solved in jQuery Mobile 1.2.0, and this work-around is no longer required. I did try to upgrade one of my jQuery Mobile 1.1.0 apps to 1.1.1 (but rolled back for other reasons), and in that process I believe that the above solution was still required.*
