@@ -8,7 +8,7 @@ categories:
 - paleo
 ---
 
-Introducing the "Picante Paloma". It's a sweet, spicy, and refreshing drink that 's perfect for the first day of summer. This is a mix of a recipe my wife and I found on the internet, a drink we tasted at a friend's wedding called "Late For Work", and our own experimentation. It's more-or-less paleo-friendly, depending on how picky you are about the ingredients.
+Introducing the "Picante Paloma". It's a sweet, spicy, and refreshing drink that's perfect for the first day of summer. This is a mix of a recipe my wife and I found on the internet, a drink we tasted at a friend's wedding called "Late For Work", and our own experimentation. It's more-or-less paleo-friendly, depending on how picky you are about the ingredients.
 
 <!-- MORE -->
 
