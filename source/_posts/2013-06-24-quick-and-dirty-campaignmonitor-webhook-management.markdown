@@ -47,7 +47,7 @@ namespace :campaign_monitor do
     desc "Test all our CampaignMonitor webhooks"
     task :test => :environment do
       list = campaign_monitor_list
-      list.webhooks.map do |hook|
+      list.webhooks.each do |hook|
         list.test_webhook(hook[:WebhookID])
       end
     end
@@ -55,7 +55,7 @@ namespace :campaign_monitor do
     desc "Uninstall all our CampaignMonitor webhooks"
     task :clear => :environment do
       list = campaign_monitor_list
-      list.webhooks.map do |hook|
+      list.webhooks.each do |hook|
         list.delete_webhook(hook[:WebhookID])
       end
     end
