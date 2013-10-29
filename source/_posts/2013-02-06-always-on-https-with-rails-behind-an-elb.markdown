@@ -81,3 +81,5 @@ end
 ```
 
 Now, all you need to do is change your ELB Health Check to use `/health_check` instead of `/index.html`. This way the ELB will check that your Rails app is responding using HTTP (since that is the appropriate protocol between the ELB and Rails if you are using the ELB as your SSL endpoint). Your instance will register as healthy as long as your Rails app is up, and Rails will redirect all other HTTP traffic to HTTPS.
+
+***UPDATED Oct. 28, 2013:** If you run your own reverse proxy in front of Rails, you can do this in the reverse proxy without having to modify your Rails app. See my [post on doing this with nginx](http://scottwb.com/blog/2013/10/28/always-on-https-with-nginx-behind-an-elb/).*
