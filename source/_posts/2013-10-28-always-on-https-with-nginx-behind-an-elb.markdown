@@ -3,7 +3,10 @@ layout: post
 title: "Always-On HTTPS With Nginx Behind an ELB"
 date: 2013-10-28 18:42
 comments: true
-categories: aws, nginx, security
+categories:
+- aws
+- nginx
+- security
 ---
 
 A while back, I wrote about [configuring a Rails app to always enforce HTTPS behind an ELB](http://scottwb.com/blog/2013/02/06/always-on-https-with-rails-behind-an-elb/). The main problem is that it's easy to setup the blanket requirement for HTTPS, but when you are behind an ELB, where the ELB is acting as the HTTPS endpoint and only sending HTTP traffic to your server, you break the ability to respond with an `HTTP 200 OK` response for the health check that the ELB needs. This is because your blanket HTTPS enforcement will redirect the ELB's health check from HTTP to HTTPS -- and that redirection is not considered to be a healthy response by the ELB.
