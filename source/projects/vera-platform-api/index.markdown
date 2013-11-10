@@ -45,3 +45,5 @@ Technologies used in this project:
   * [Airbrake](http://airbrake.io/) - error monitoring (Ruby)
   * [Raygun](http://raygun.io/) - error monitoring (C#)
   * [NewRelic](http://newrelic.com/) - application performance and server monitoring
+
+Also check out some of the [pitch material](http://www.behance.net/gallery/VERA-Wireless-Plan-Recommendations/11394549) Leif created for this project.
