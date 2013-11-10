@@ -1,11 +1,14 @@
 ---
 layout: page
-#title: "SaveLoveGive"
+#title: "SaveLoveGive - VERA for Consuemrs"
 #date: 2013-11-10 13:43
 comments: false
 sharing: false
 footer: false
 ---
+
+#### SaveLoveGive&trade; - VERA&trade; for Consumers (2012/2013)
+
 {% img center /projects/savelovegive/hero.png 'SaveLoveGive' 'SaveLoveGive' %}
 
 SaveLoveGive&trade; was the branding campaign for the direct-to-consumer efforts of the VERA&trade; Platform at [Validas](http://www.validas.com). It was a modern, mobile-first response-design web-app that helped users save money on their cell phone bills, with an option to donate a portion of their savings to a charitable cause. It was built from scratch, on top of our wireless billing analysis engine, VERA&trade;, in under six months and launched to an initial media fanfare that lead to over $4 million in consumer savings within the first six weeks of going live.
