@@ -6,9 +6,12 @@ comments: false
 sharing: false
 footer: false
 ---
+
+#### VERA&trade; Platform API (2013)
+
 <a href="http://www.validas.com/" target="_blank">{% img center /projects/vera-platform-api/hero.png 'VERA Platform API' 'VERA Platform API' %}</a>
 
-The VERA Platform API at [Validas](http://www.validas.com) is a RESTful Hypermedia API that gives clients access to rich usage and account data for their customers' wireless contracts and devices. This includes voice, text, and data usage, premium features, taxes and fees, device info, upgrade eligibility and contract end dates, demographic user information, and access to a data-driven savings recommendations from an up-to-date inventory of plans and features across all major wireless carriers.
+The VERA&trade; Platform API at [Validas](http://www.validas.com) is a RESTful Hypermedia API that gives clients access to rich usage and account data for their customers' wireless contracts and devices. This includes voice, text, and data usage, premium features, taxes and fees, device info, upgrade eligibility and contract end dates, demographic user information, and access to a data-driven savings recommendations from an up-to-date inventory of plans and features across all major wireless carriers.
 
 Our customers are companies that have contact with individual wireless customers, who want to provide a variety of value-added services based on the details of their wireless usage profile and spending habits. This ranges from large electronics retailers (online and brick-and-mortar), to major wireless carriers, plan-switching and savings brokers, handset buy-back and recycling providers, comprehensive utility companies, expense management organizations, insurance underwriters, and even small boutique [MVNOs](http://en.wikipedia.org/wiki/Mobile_virtual_network_operator) and resellers.
 
