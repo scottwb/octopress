@@ -16,7 +16,7 @@ Our customers are companies that have contact with individual wireless customers
 
 As the VP of Engineering at this small company, I took the lead with [Jeremy Groh](http://linkedin.com/in/jgroh9) (CTO) and [Leif Jensen](http://www.linkedin.com/in/leifjensen) (Dir. of Product) in pivoting the company's focus, based on our measurements and market feedback, from a direct-to-consumer approach to becoming a SaaS API to deliver the power of our platform to larger companies that have better connections to consumers, and have a real opportunity to drive value from our technology.
 
-I was involved in both leading the software engineering team and serving as an individual contributor to the implementation of this project. Given the technical nature of the product, I was also heavily involved in the market research and customer development efforts, inbound marketing and feature roadmap planning, and the financial modeling of operation cost projects and pricing models.
+I was involved in both leading the software engineering team and serving as an individual contributor to the implementation of this project. Given the technical nature of the product, I was also heavily involved in the market research and customer development efforts, inbound marketing and feature roadmap planning, and the financial modeling of operation cost projections and pricing models.
 
 This was roughly a 6-month project from conception to first public launch, including all aspects of implementation and operating as a self-contained business unit.
 
