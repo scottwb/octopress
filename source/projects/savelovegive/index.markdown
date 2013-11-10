@@ -11,7 +11,7 @@ footer: false
 
 {% img center /projects/savelovegive/hero.png 'SaveLoveGive' 'SaveLoveGive' %}
 
-SaveLoveGive&trade; was the branding campaign for the direct-to-consumer efforts of the VERA&trade; Platform at [Validas](http://www.validas.com). It was a modern, mobile-first response-design web-app that helped users save money on their cell phone bills, with an option to donate a portion of their savings to a charitable cause. It was built from scratch, on top of our wireless billing analysis engine, VERA&trade;, in under six months and launched to an initial media fanfare that lead to over $4 million in consumer savings within the first six weeks of going live, and went on to raise over $100,000 in charitable donations in its first few months.
+SaveLoveGive&trade; was the branding campaign for the direct-to-consumer efforts of the VERA&trade; Platform at [Validas](http://www.validas.com). It was a modern, mobile-first response-design web-app that helped users save money on their cell phone bills, with an option to donate a portion of their savings to a charitable cause. We built it from scratch in under six months, on top of our wireless billing analysis engine, VERA&trade;, and launched to an initial media fanfare that lead to over $4 million in consumer savings within the first six weeks of going live, and went on to raise over $100,000 in charitable donations in its first few months.
 
 ## My Contribution
 
@@ -25,8 +25,8 @@ My biggest areas of individual contribution in software development included:
   * Architecture that allowed us to scale from 10 hits-per-hour to tens of thousands of hits per minute, in under a minute when the first news story hit the airwaves.
   * Built custom measurement and analysis tools to help steer the product roadmap.
   * Full stack implementation of the web app - Rails, HTML5, CSS, Javascript, etc.
-  * Custom continuous deployment and high-availabilty mechanisms.
-  * Technical liason to charity partners, designing architecture to allow them to be easily plugged in to our system.
+  * Custom continuous deployment and high-availability mechanisms.
+  * Technical liaison to charity partners, designing architecture to allow them to be easily plugged in to our system.
   * Implemented MapReduce-based analytics.
   * Implemented data validation toolset.
   * Fully automated DevOps infrastructure.
