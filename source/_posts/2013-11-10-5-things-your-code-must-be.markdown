@@ -12,7 +12,7 @@ If you work for me, with me, or near me, there are certain qualities of your cod
 
 This creates all kinds of schedule problems, expectation/reality mismatch problems with management, marketing, sales, etc.
 
-There a tons of details that go into the definition of "done", and they vary depending on the project and the organization's software development lifecycle. Rather than try to rigorously enumerate these -- which would be the topic of an entire book -- I tend to lean on 5 keystone requirements that we can assess about the code before we can call it "done". There are many tactical rules for developing good software, but at a strategic level, following these keystone requirements generally leads us to cover most of those details.
+There are tons of details that go into the definition of "done", and they vary depending on the project and the organization's software development lifecycle. Rather than try to rigorously enumerate these -- which would be the topic of an entire book -- I tend to lean on 5 keystone requirements that we can assess about the code before we can call it "done". There are many tactical rules for developing good software, but at a strategic level, following these keystone requirements generally leads us to cover most of those details.
 
 So...before you can call it "done", your code module must be:
 
