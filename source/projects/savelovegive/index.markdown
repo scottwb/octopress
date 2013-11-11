@@ -35,8 +35,8 @@ Technologies used in this project:
 
   * Linux
   * Ruby and CoffeeScript
-  * [Riak](http://www.couchbase.com/) - document-oriented NoSQL database
-  * [Couchbase](http://basho.com/riak/) - distributed key/value NoSQL database
+  * [Riak](http://basho.com/riak/) - distributed key/value NoSQL database
+  * [Couchbase](http://www.couchbase.com/) - document-oriented NoSQL database
   * [Ruby on Rails](http://rubyonrails.org/) - web-app framework
   * [jQuery Mobile](http://jquerymobile.com/) - HTML5-based UI system
   * [Unicorn](http://unicorn.bogomips.org/) and [Nginx](http://wiki.nginx.org/Main) - web servers
