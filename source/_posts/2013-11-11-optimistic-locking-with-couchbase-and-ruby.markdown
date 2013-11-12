@@ -57,7 +57,7 @@ module Couchbase
       begin
         doc, flags, cas = get(key, :extended => true)
         yield doc
-        set(key, doc, :cas => cas)
+        set(key, doc, :flags => flags, :cas => cas)
       rescue Couchbase::Error::KeyExists
         retry
       end
