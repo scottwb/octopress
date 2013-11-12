@@ -84,4 +84,4 @@ It is important to note that, if your changes are not commutative, like our simp
 
 [Test code for this method](https://github.com/scottwb/couchbase-optimistic-locking/blob/master/spec/lib/couchbase_bucket_spec.rb) can be seen in the GitHub repository.
 
-**Also note:** My college [Jeremy Groh](http://www.linkedin.com/in/jgroh9/) has a similar post with sample code for doing [optimistic locking on Couchbase using C#](http://www.ramsmusings.com/2013/06/11/optimistic-locking-with-couchbase/).
+**Also note:** My colleague [Jeremy Groh](http://www.linkedin.com/in/jgroh9/) has a similar post with sample code for doing [optimistic locking on Couchbase using C#](http://www.ramsmusings.com/2013/06/11/optimistic-locking-with-couchbase/).
