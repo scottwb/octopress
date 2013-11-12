@@ -13,11 +13,11 @@ footer: false
 
 Post On The Wall&trade; was a desktop web app and native iOS app that provided "virtual walls" at geographic locations, enabling users within a close range to upload pictures, sketches, and other content from their mobile devices, that were projected to a big screen with a real-time, animated view of the wall as it's content unfolded.
 
-Unlike most social or photo-sharing apps, privacy in Post On The Wall was enforced by GPS location. In order to post a picture on a wall, you had to _be there_, and only people who were there, could see the content unless it was otherwise shared on social networks. The map features allowed event-goers to find walls nearby and in the future, in order to discover events, see publicized photos, and register to attend.
+Unlike most social or photo-sharing apps, privacy in Post On The Wall was enforced by GPS location. In order to post a picture on a wall, you had to _be there_, and only people who were there could see the content unless it was otherwise shared on social networks. The map features allowed event-goers to find walls nearby and in the future, in order to discover events, see publicized photos, and register to attend.
 
 {% img center /projects/post-on-the-wall/map.png 'Find a Wall' 'Find a Wall' %}
 
-Our primary market focus was on event planners, wedding coordinators, and a variety of charity fundraising galas. The goal was to let event coordinators create these virtual photo walls where only their attendees were allowed to submit content. The event coordinator could sign up and create their own walls, choose from a variety of themes, and eventually charge a fee to allow posting to a live wall - a feature that was heavily requested high-profile events - or even ordering high-resolution prints.
+Our primary market focus was on event planners, wedding coordinators, and a variety of charity fundraising galas. The goal was to let event coordinators create these virtual photo walls where only their attendees were allowed to submit content. The event coordinator could sign up and create their own walls, choose from a variety of themes, and eventually charge a fee to allow posting to a live wall - a feature that was heavily requested at high-profile events - or even ordering high-resolution prints.
 
 {% img center /projects/post-on-the-wall/create.png 'Create a Wall' 'Create a Wall' %}
 
@@ -25,9 +25,11 @@ At the event, a large screen TV or projector would display the wall in "presenta
 
 {% img center /projects/post-on-the-wall/presentation.png 'Presentation Mode' 'Presentation Mode' %}
 
-When idle, the wall would animate, panning around and zooming in on individual posts to show the full resolution media, along with the comments, tags, signatures, and sketches submitted by the poster. It was an incredibly fun and addictive expereince for those who participated.
+When idle, the wall would animate, panning around and zooming in on individual posts to show the full resolution media, along with the comments, tags, signatures, and sketches submitted by the poster. It was an incredibly fun and addictive experience for those who participated.
 
 {% img center /projects/post-on-the-wall/popup.png 'Viewing a Post' 'Viewing a Post' %}
+
+<span class="finePrint">Images by <a href="http://www.placeit.net/" target="_blank">Placeit</a></span>
 
 ## My Contribution
 
@@ -36,8 +38,8 @@ As the CTO at Be Labs (formerly Balassanian Enterprises, LLC), I was responsible
 My biggest areas of individual contribution in software development included:
 
   * Scalable cloud-based architecture for elastically tuning compute resource provisioning for image upload processing based on live event load. Our first major event handled hundreds of posts per minute without a hitch.
-  * Custom queue and background worker mechanism for allowing intermittently-connected iOS devices to asycnhrously complete their upload tasks.
-  * Designed and implemented a photo-placement algorithm that balanced efficent use of space (bin packing) and aesthetics.
+  * Custom queue and background worker mechanism for allowing intermittently-connected iOS devices to asynchronously complete their upload tasks.
+  * Designed and implemented a photo-placement algorithm that balanced efficient use of space (bin packing) and aesthetics.
   * Built the live, animated presentation mode front-end.
   * Implemented authentication for wall owners, and location-based permission for attendees.
   * Involved in the full stack implementation of the web app - Rails, HTML5, CSS, Javascript, etc.
