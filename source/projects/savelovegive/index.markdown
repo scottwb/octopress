@@ -2,6 +2,7 @@
 layout: page
 #title: "SaveLoveGive - VERA for Consuemrs"
 #date: 2013-11-10 13:43
+favicon: /projects/savelovegive/favicon.png
 comments: false
 sharing: false
 footer: false
