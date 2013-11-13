@@ -2,6 +2,7 @@
 layout: page
 #title: "VERA Platform API"
 #date: 2013-11-10 08:00
+favicon: /projects/vera-platform-api/favicon.png
 comments: false
 sharing: false
 footer: false
