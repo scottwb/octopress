@@ -2,6 +2,7 @@
 layout: page
 #title: "Post On The Wall"
 #date: 2013-11-11 15:31
+favicon: /projects/post-on-the-wall/favicon.png
 comments: false
 sharing: false
 footer: false
