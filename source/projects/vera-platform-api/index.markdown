@@ -1,14 +1,10 @@
 ---
-layout: page
-#title: "VERA Platform API"
-#date: 2013-11-10 08:00
+layout: project_page
+title: VERA&trade; Platform API
+date: 2013-11-10 08:00
+date_range: 2013
 favicon: /projects/vera-platform-api/favicon.png
-comments: false
-sharing: false
-footer: false
 ---
-
-#### VERA&trade; Platform API (2013)
 
 <a href="http://www.validas.com/" target="_blank">{% img center /projects/vera-platform-api/hero.png 'VERA Platform API' 'VERA Platform API' %}</a>
 

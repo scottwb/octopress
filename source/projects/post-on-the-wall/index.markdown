@@ -1,14 +1,10 @@
 ---
-layout: page
-#title: "Post On The Wall"
-#date: 2013-11-11 15:31
+layout: project_page
+title: Post On The Wall&trade;
+date: 2013-11-11 15:31
+date_range: 2011
 favicon: /projects/post-on-the-wall/favicon.png
-comments: false
-sharing: false
-footer: false
 ---
-
-#### Post On The Wall&trade; (2011)
 
 {% img left /projects/post-on-the-wall/iphone-splash.png 'Post On The Wall' 'Post On The Wall' %}
 

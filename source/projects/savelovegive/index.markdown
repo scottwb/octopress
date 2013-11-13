@@ -1,14 +1,10 @@
 ---
-layout: page
-#title: "SaveLoveGive - VERA for Consuemrs"
-#date: 2013-11-10 13:43
+layout: project_page
+title: SaveLoveGive&trade;
+date: 2013-11-10 13:43
+date_range: 2012 - 2013
 favicon: /projects/savelovegive/favicon.png
-comments: false
-sharing: false
-footer: false
 ---
-
-#### SaveLoveGive&trade; - VERA&trade; for Consumers (2012/2013)
 
 {% img center /projects/savelovegive/hero.png 'SaveLoveGive' 'SaveLoveGive' %}
 

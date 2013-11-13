@@ -55,7 +55,21 @@ aside.sidebar
 
 #content
   article
+    header.projectPage
+      padding-top: 0px
+      h1
+        font-size: 1.8em
+        span.dateRange
+          font-size: 0.66em
+          color: #ccc
+          white-space: nowrap
     ol, ul
       padding-left: 3em
     span.finePrint
       font-size: 0.6em
+
+  @media only screen and (min-width: 992px)
+    article
+      header.projectPage
+        h1
+          font-size: 2em
