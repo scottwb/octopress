@@ -85,3 +85,5 @@ It is important to note that, if your changes are not commutative, like our simp
 [Test code for this method](https://github.com/scottwb/couchbase-optimistic-locking/blob/master/spec/lib/couchbase_bucket_spec.rb) can be seen in the GitHub repository.
 
 **Also note:** My colleague [Jeremy Groh](http://www.linkedin.com/in/jgroh9/) has a similar post with sample code for doing [optimistic locking on Couchbase using C#](http://www.ramsmusings.com/2013/06/11/optimistic-locking-with-couchbase/).
+
+***UPDATED Nov. 15, 2013:** As [Sergey Avseyev](https://twitter.com/avsej) pointed out, there is a very similar method `Couchbase::Bucket#cas` that already in the couchbase-ruby-client. The only thing it doesn't do that I described above, is the retry upon collision. At his suggestion, I've [extended that method](https://github.com/couchbase/couchbase-ruby-client/commit/4c9b6761d6afb1320a852a58104678335dcb7909) to take a `retry` option. This is probably a better solution anyway, since it handles both synchronous and asynchronous modes. Look for it in an upcoming release of the couchbase-ruby-client gem.*
