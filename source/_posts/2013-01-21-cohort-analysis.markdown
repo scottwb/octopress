@@ -8,9 +8,7 @@ categories:
 - analytics
 - metrics
 ---
-We had a pretty big traffic surge for our product, [VERA](https://vera.savelovegive.com/?utm_source=scottwb&utm_campaign=cohort), last week after being featured on [ABC World News with Diane Sawyer](http://abcn.ws/WiH1w7) and [Nightline](http://abcn.ws/WbBU43), and we continue to see some decent sustained load since then.
-
-This is, of course, great news for the company, but it also sparks some interesting discussions about metrics. After a few conversations with some colleagues of mine about statistics, metrics, and analytics, I thought I'd dig up some good articles to summarize some of the key Lean Startup principles surrounding metrics and data-driven decision-making for those who haven't had the pleasure of reading Eric Reis's book _Lean Startup_. That turned into a writeup about what metrics we are reporting internally, and why we focus on _Actionable Metrics_ over _Vanity Metrics_. I figured I'd share some of that as a blog post here as well.
+After a few conversations with a former colleauge about statistics, metrics, and analytics, I thought I'd dig up some good articles to summarize some of the key Lean Startup principles surrounding metrics and data-driven decision-making for those who haven't had the pleasure of reading Eric Reis's book _Lean Startup_. That turned into a blog post about what metrics we report as developers and ops guys, and why we need to focus on _Actionable Metrics_ over _Vanity Metrics_.
 
  My goal is to provide a little background on _Actionable Metrics_ and how they differ from _Vanity Metrics_. Understanding this is a central theme of the book _Lean Startup_, by Eric Reis, and the writings and teachings of a number of other prominent startup/entrepreneur/lean proponents such as Steve Blank, Dave McClure, and Ash Maurya. Fred Wilson of Union Square Ventures, has been quoted saying, "one of our firm's favorite measurements is the cohort analysis".
 
@@ -18,7 +16,7 @@ This is, of course, great news for the company, but it also sparks some interest
 
 ## Three Links You Should Read
 
-### 1. [3 Rules To Actionable Metrics - Ash Maurya](http://www.ashmaurya.com/2010/07/3-rules-to-actionable-metrics/)
+### 1. [3 Rulesource/_includes/custom/asides/s To Actionable Metrics - Ash Maurya](http://www.ashmaurya.com/2010/07/3-rules-to-actionable-metrics/)
 In this post, Ash Maurya, author of _Running Lean_ and creator of _Lean Canvas_ starts right out with the definitions of Actionable Metrics and Vanity Metrics. The key summary being:
 
 > **Actionable Metric:** ties specific and repeatable actions to observed results
@@ -35,7 +33,7 @@ This is a nice short blog post, by Martin Thomas, founder of Purlem, about using
 
 > A cohort is a group of people who share a common characteristic or experience within a defined period
 
-Note the focus on measuring "within a defined period". As with Maurya's post, his example is to group cohorts by signup date (exactly what we're doing), and then track what those cohorts have as their initial experience (his is over a month, ours is currently over a 24-hour period -- we really want to measure that "Day One Aha!" experience). He quotes Eric Reis on the issue of using vanity metrics:
+Note the focus on measuring "within a defined period". As with Maurya's post, his example is to group cohorts by signup date, and then track what those cohorts have as their initial experience (his is over a month, ours is currently over a 24-hour period -- we really want to measure that "Day One Aha!" experience). He quotes Eric Reis on the issue of using vanity metrics:
 
 > Before using cohort analysis, I was tracking the cumulative number of paying users. Eric Reis calls this vanity metrics as they give the “rosiest possible picture” of a startup’s progress, but does not track how people are actually interacting with the application.
 >
@@ -63,4 +61,4 @@ This is a great slide deck about metrics and analytics in a startup. It's a bit 
 
 * **Slides 99-100:** Innovation Accounting. I'd call it a wake-up-call. "Everything you do should attempt to change a metric". I.e.: anything we are not doing that is not specifically aimed at changing an actionable metric is something we need to stop doing.
 
-* **Slide 106:** Kanban board. Looks like our Trello board!
+* **Slide 106:** Kanban board. Looks like my Trello boards!
