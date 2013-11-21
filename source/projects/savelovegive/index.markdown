@@ -6,4 +6,4 @@ date_range: 2012 - 2013
 favicon: /projects/savelovegive/favicon.png
 ---
 
-SaveLoveGive&trade; was a project I was involved with at [Validas](http://www.validas.com/). You can read more about it at [http://www.savelovegive.com/].
+SaveLoveGive&trade; was a project I was involved with at [Validas](http://www.validas.com/). You can read more about it at (http://www.savelovegive.com/)[http://www.savelovegive.com/].
