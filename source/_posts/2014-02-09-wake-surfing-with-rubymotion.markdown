@@ -123,7 +123,7 @@ You can also use `puts` to print to `stdout` right there in the REPL in your ter
 
 It's very cool that out of the box, RubyMotion comes with [TestFlight](http://testflightapp.com/) integration. That's hands-down the best way to get your pre-release app builds in the hands of beta-testers and stakeholders.
 
-If you're not into Emacs (why wouldn't you be?), [RubyMine](http://www.jetbrains.com/ruby/) by JetBrains is a great IDE for RubyMotion (as well as Ruby on Rails). It integrates with auto-completion of the iOS SDK API, and the rake-baesd test runner too. And it has support for Emacs key-bindings. ;)
+If you're not into Emacs (why wouldn't you be?), [RubyMine](http://www.jetbrains.com/ruby/) by JetBrains is a great IDE for RubyMotion (as well as Ruby on Rails). It integrates with auto-completion of the iOS SDK API, and the rake-based test runner too. And it has support for Emacs key-bindings. ;)
 
 ### 5. Great Libraries
 
